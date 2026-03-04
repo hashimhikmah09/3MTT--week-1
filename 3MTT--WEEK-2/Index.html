@@ -1,35 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Styled Web Page</title>
+    <!-- Meta Essentials -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Hikmah Hashim - Frontend Developer in training." />
+    <meta name="author" content="Hikmah Hashim" />
 
-    <!-- Link to External CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>About Me | Hikmah Hashim</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>Welcome to My Web Page</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">HH Dev</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <p>
-            Hello! My name is Hikmah. I am learning web development 
-            and this is my first HTML page. I am excited to build 
-            amazing websites!
-        </p>
+    <!-- Main Content -->
+    <main class="container">
 
-        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=400" alt="Nature Image">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>About Me</h1>
+            <p class="subtitle">
+                Full Stack developer in Training | Passionate About Clean UI & Scalable Code
+            </p>
+        </section>
 
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="about-content">
 
-        <h2>Things I Am Learning:</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-        </ul>
-    </div>
+                <div class="about-text">
+                    <h2>Who I Am</h2>
+                    <p>
+                        Hello! My name is Hikmah Hashim. I am currently building my
+                        foundation in frontend development with a strong focus on
+                        semantic HTML, modern CSS, and scalable web architecture.
+                    </p>
+                
+                </div>
+
+                <div class="about-image">
+                    <img src="hikmah.jpeg" alt="Hikmah Hashim Profile Picture" />
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Core Skills</h2>
+
+            <ul class="skills-list">
+                <li>Semantic HTML5</li>
+                <li>External CSS Styling</li>
+                <li>Responsive Web Design</li>
+                <li>Basic JavaScript</li>
+                <li>Frontend Project Structure</li>
+            </ul>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="section mission">
+            <h2>My Mission</h2>
+            <p>
+                To continuously improve my frontend engineering skills while
+                building projects that demonstrate clean code practices,
+                maintainable structure, and user-focused design.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Get In Touch</h2>
+            <p>
+                I am open to learning opportunities, collaborations, and
+                internships in frontend development.
+            </p>
+            <a href="mailto:your-email@example.com" class="btn">
+                Contact Me
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Hikmah Hashim | All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
