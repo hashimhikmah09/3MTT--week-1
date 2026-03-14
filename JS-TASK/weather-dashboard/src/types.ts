@@ -10,6 +10,7 @@ export interface WeatherResponse {
 }
 
 export interface ForecastItem {
+  weather: any
   dt_txt: string
   main: {
     temp: number
