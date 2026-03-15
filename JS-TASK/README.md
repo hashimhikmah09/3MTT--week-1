@@ -117,6 +117,4 @@ Recent searches are stored in the browser using **localStorage**, allowing users
 
 ---
 
-## Author
 
-**Hikmah Hashim**
